@@ -1,0 +1,126 @@
+[
+    {
+      "type": "Accordion",
+      "properties": {
+          "name": "Map Properties",
+          "collapsed": false
+      },
+      "children": [
+        {
+            "type": "InputBox",
+            "properties": {
+                "labelName": "States",
+                "allowBinding": true,
+                "allowManualEntry": false,
+                "textArea": false,
+                "bindingPropertyName": "states"
+            }
+        },
+        {
+            "type": "InputBox",
+            "properties": {
+                "labelName": "Values",
+                "allowBinding": true,
+                "allowManualEntry": false,
+                "textArea": false,
+                "bindingPropertyName": "statesValues"
+            }
+        },
+        {
+            "type": "InputBox",
+            "properties": {
+                "labelName": "Background color",
+                "allowBinding": true,
+                "allowManualEntry": false,
+                "textArea": false,
+                "bindingPropertyName": "bgColor"
+            }
+        },
+        {
+            "type": "InputBox",
+            "properties": {
+                "labelName": "Value colors (multiple allowed)",
+                "allowBinding": true,
+                "allowManualEntry": false,
+                "textArea": false,
+                "bindingPropertyName": "valueColors"
+            }
+        },
+        {
+            "type": "InputBox",
+            "properties": {
+                "labelName": "Dataless Color",
+                "allowBinding": true,
+                "allowManualEntry": false,
+                "textArea": false,
+                "bindingPropertyName": "novalueColor"
+            }
+        }
+      ]
+    },
+    {
+      "type": "Accordion",
+      "properties": {
+          "name": "Tooltip",
+          "collapsed": true
+      },
+      "children": [
+        {
+            "type": "Checkbox",
+            "properties": {
+                "labelName": "Disable Tooltip",
+                "bindingPropertyName": "tooltipDisabled"
+            }
+        },
+        {
+            "type": "InputBox",
+            "properties": {
+                "labelName": "Value Label",
+                "allowBinding": true,
+                "allowManualEntry": false,
+                "textArea": false,
+                "bindingPropertyName": "tooltipValueLabel"
+            }
+        },
+        {
+            "type": "InputBox",
+            "properties": {
+                "labelName": "Value Prefix",
+                "allowBinding": true,
+                "allowManualEntry": false,
+                "textArea": false,
+                "bindingPropertyName": "tooltipValuePrefix"
+            }
+        },
+        {
+            "type": "InputBox",
+            "properties": {
+                "labelName": "Value Suffix",
+                "allowBinding": true,
+                "allowManualEntry": false,
+                "textArea": false,
+                "bindingPropertyName": "tooltipValueSuffix"
+            }
+        }
+      ]
+    },
+    {
+      "type": "Accordion",
+      "properties": {
+          "name": "Writeback",
+          "collapsed": false
+      },
+      "children": [
+        {
+            "type": "InputBox",
+            "properties": {
+                "labelName": "State selection:",
+                "allowBinding": true,
+                "allowManualEntry": false,
+                "textArea": false,
+                "bindingPropertyName": "response"
+            }
+        }
+      ]
+    }
+]

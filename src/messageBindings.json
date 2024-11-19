@@ -1,0 +1,48 @@
+[
+    {
+        "property": "apiKey",
+        "direction": "receive"
+    },
+    {
+        "property": "states",
+        "direction": "receive"
+    },
+    {
+        "property": "statesValues",
+        "direction": "receive"
+    },
+    {
+        "property": "bgColor",
+        "direction": "receive"
+    },
+    {
+        "property": "valueColors",
+        "direction": "receive"
+    },
+    {
+        "property": "novalueColor",
+        "direction": "receive"
+    },
+
+    {
+        "property": "tooltipDisabled",
+        "direction": "receive"
+    },
+    {
+        "property": "tooltipValueLabel",
+        "direction": "receive"
+    },
+    {
+        "property": "tooltipValuePrefix",
+        "direction": "receive"
+    },
+    {
+        "property": "tooltipValueSuffix",
+        "direction": "receive"
+    },
+
+    {
+        "property": "response",
+        "direction": "send"
+    }
+]
